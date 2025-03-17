@@ -15,6 +15,7 @@ I chose national parks. One requirement was to make it fun so I added confetti i
 I didn't see it being necessary adding a server-side since I wasn't working with sensitive data however if I were to do it again,
 I'd add more security. However this doesn't mean I can't do it, last semester I added a secure server-side to my web project using ajax
 which got me a mark of 91%.
+If I had more time I would present all the data provided, I'd also work more on the GUI.
 
 # Instructions
 
