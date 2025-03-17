@@ -19,15 +19,15 @@ class Property {
             },
         });
         return await results.json()
-            .then((e) => {
-                return this.handleData(e);
+            .then((e) => { //once we have retrieved the data then we want to add the park details to this class
+                return this.handleData(e); //so handle data to extract the necessary data.
             })
             .catch( () =>{
                 return false;
             });
 
     }
-    handleData(json){
+    handleData(json){ //parses json and extracts data
         this.park = new NationalPark();
         try {
             if(json['error']){

@@ -3,7 +3,7 @@ import { useWindowSize } from 'react-use';
 import Confetti from 'react-confetti';
 
 
-export default function ParkWidget({park}){
+export default function ParkWidget({park}){ //Component to display the details of the property
     const { width, height } = useWindowSize();
 
     return (<>

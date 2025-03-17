@@ -29,7 +29,7 @@ function App() {
                 console.log(x);
                 setLoading(true);
                 property.retrievePropertyInfo(x)
-                    .then(()=>{
+                    .then(()=>{ //if data retrieval is successful, then display the data
                             const root = createRoot(document.getElementById('div1'));
                             root.render(<ParkWidget park={property.park}/>);
                         }
