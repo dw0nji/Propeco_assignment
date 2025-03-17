@@ -13,7 +13,8 @@ There was a lot of data to be retrieved I thought I would focus on one portion o
 I chose national parks. One requirement was to make it fun so I added confetti if a property is located in a national park.
 
 I didn't see it being necessary adding a server-side since I wasn't working with sensitive data however if I were to do it again,
-I'd add more security.
+I'd add more security. However this doesn't mean I can't do it, last semester I added a secure server-side to my web project using ajax
+which got me a mark of 91%.
 
 # Instructions
 
